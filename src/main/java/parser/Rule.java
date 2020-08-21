@@ -28,8 +28,8 @@ public class Rule {
 //        }
         RHS = new ArrayList<GrammarSymbol>();
         if (splited.length > 1) {
-            String[] RHSs = splited[1].split(" ");
-            for (String s : RHSs){
+            String[] rhsS = splited[1].split(" ");
+            for (String s : rhsS){
                 try {
                     RHS.add(new GrammarSymbol(NonTerminal.valueOf(s)));
                 } catch (Exception e) {
