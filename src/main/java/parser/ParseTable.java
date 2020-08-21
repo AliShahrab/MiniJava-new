@@ -24,7 +24,7 @@ public class ParseTable {
                 try {
                     nonTerminals.put(i, NonTerminal.valueOf(temp));
                 }catch (Exception e){
-                    temp = temp;
+                    throw e;
                 }
             }
             else {
