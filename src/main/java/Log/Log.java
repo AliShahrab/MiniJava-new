@@ -8,4 +8,5 @@ public class Log {
     {
 //        System.out.println(s);
     }
+    private Log(){}
 }
