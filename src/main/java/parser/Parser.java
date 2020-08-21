@@ -40,7 +40,7 @@ public class Parser {
   }
 
   public void startParse(java.util.Scanner sc) {
-    scanner.lexicalAnalyzer lexicalAnalyzer = new lexicalAnalyzer(sc);
+    lexicalAnalyzer lexicalAnalyzer = new lexicalAnalyzer(sc);
     Token lookAhead = lexicalAnalyzer.getNextToken();
     boolean finish = false;
     Action currentAction;
